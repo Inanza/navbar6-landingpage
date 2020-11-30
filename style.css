@@ -1,0 +1,89 @@
+.open{
+    font-family: 'Open Sans', sans-serif;
+}
+.halyard text {
+    font-family: 'Halyard Text' cursive;
+}
+.text {
+    margin-left: 190px;
+    color: #1E266D;
+
+}
+.nav-link a{
+    font-size: 16px;
+    line-height: 80px;
+    font-family: halyard text;
+    font-style: normal;
+    font-weight: normal;
+    color: #1E266D;
+    margin-left: 15px;
+    
+}
+.nav-text {
+    font-size: 16px;
+    margin-left: 200px;
+    line-height: 95px;
+    color: #1E266D;
+}
+.nav-button {
+    line-height: 85px;
+    margin: 0px 20px;
+}
+.btn-primary {
+    color: #fff;
+    background-color: rgb(8, 103, 212);
+    border-color: rgb(8, 103, 212);
+    border-radius: 25px;
+    margin-left: 20px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #1E266D;
+    margin-left: 18px;
+    font-size: 16px;
+    line-height: 80px;
+    font-family: halyard text;
+    font-style: normal;
+    font-weight: normal;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #1E266D;
+
+}
+@media only screen and (max-width: 768px) {
+    .text {
+        font-size: 16px;
+        margin-left: 20px;
+        line-height: 95px;
+        color: #1E266D;
+        margin-top: -70px;
+        
+    }
+    
+    .nav-button {
+        line-height: 85px;
+        margin: 0px 20px;
+        text-align: center;
+        margin-top: 40px;
+        margin-left: 100px;
+    }
+    .nav-link {
+        font-size: 16px;
+        line-height: 80px;
+        font-family: halyard text;
+        font-style: normal;
+        font-weight: normal;
+        color: #1E266D;
+        margin-top: -30px;
+        margin-right: 20px;
+        
+    }
+    .btn-primary {
+        color: #fff;
+        background-color: rgb(8, 103, 212);
+        border-color: rgb(8, 103, 212);
+        border-radius: 25px;
+        margin-top: 50px;
+        margin-left: -120px;
+    }
+    
+  }
